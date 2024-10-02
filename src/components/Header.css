@@ -16,11 +16,12 @@ color: #ffffff;
     display: flex;
 }
 
-.cep {
+.senha_input {
     background-color: #ffffff;
     border: px;
     gap: 10px;
-    width: 200px;
+    width: 100px;
+
 }
 
 .header-cep-button {
@@ -60,3 +61,17 @@ color: #ffffff;
     font-weight: 600;
     width: 120px;
 }
+.header-cep-button{
+    align-items: center;
+    display: flex;
+        width: 200  px;       /* Largura específica */
+        height: 50px;      /* Altura específica */
+        padding: 5px; /* Padding ajustado */
+        font-size: 14px;   /* Tamanho da fonte ajustado */
+        border-radius: 5px; /* Borda arredondada, se desejado */
+        cursor: pointer;    /* Muda o cursor ao passar sobre o botão */
+    }
+    .h2Senhageradas{
+        padding: 20px;
+    }
+    
